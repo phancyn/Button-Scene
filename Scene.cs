@@ -1,11 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Scene : MonoBehaviour
 {
-    public void loadScene(int sceneid)
+    public int sceneid
+    
+    public void loadScene()
     {
         SceneManager.LoadScene(sceneid);
     }
